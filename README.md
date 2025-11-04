@@ -50,11 +50,3 @@ Test-20251103-MBX514/
 ├── .github/workflows/ # 根目录CI工作流
 ├── .gitignore # Git忽略规则
 └── README.md # 项目说明
-
-快速开始
-
-1ACS - 数据清洗
-```bash
-cd 1ACS
-pip install -r requirements.txt
-python -m pytest tests/test_clean.py -v
